@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node ./dist/server.js",
     "dev": "bun run --watch ./server.ts",
-    "build": "bun build ./server.ts ./app.ts --outdir dist --packages external"
+    "build": "bun build ./server.ts ./app.ts ./index.ts --outdir api --packages external"
   },
   "devDependencies": {
     "@types/bun": "latest"
