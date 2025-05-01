@@ -1,5 +1,6 @@
 import { handle } from "hono/vercel";
 import app from "./app";
+import "dotenv/config";
 
 const handler = handle(app);
 
