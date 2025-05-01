@@ -5,6 +5,7 @@
     "build": "next build"
   },
   "devDependencies": {
+    "@types/node": "^22.15.3",
     "@types/react": "^18.0.31"
   },
   "peerDependencies": {
@@ -16,9 +17,9 @@
     "@hono/node-server": "^1.14.0",
     "@t3-oss/env-core": "^0.13.4",
     "hono": "^4.7.5",
-    "zod": "^3.24.3",
     "next": "^13.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.24.3"
   }
 }
