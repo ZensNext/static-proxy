@@ -1,5 +1,5 @@
 import { handle } from "hono/vercel";
-import app from "../../hono/app";
+import app from "../../hono";
 
 export const config = {
   runtime: "edge", // this is a pre-requisite
