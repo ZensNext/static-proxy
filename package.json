@@ -2,9 +2,10 @@
   "name": "static",
   "type": "module",
   "scripts": {
-    "start": "node ./dist/server.js",
-    "dev": "bun run --watch ./server.ts",
-    "build": "bun build ./index.ts --production --outdir api --packages external"
+    "start": "vercel dev",
+    "dev": "bun run ./server.ts",
+    "deploy": "vercel",
+    "build": "echo 'Do nothing'"
   },
   "devDependencies": {
     "@types/bun": "latest"
