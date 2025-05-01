@@ -1,0 +1,23 @@
+{
+  "name": "static",
+  "private": true,
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": "bun run --watch ./server.ts",
+    "build": "bun build ./server.ts ./app.ts --outdir dist --packages external"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.800.0",
+    "@aws-sdk/s3-request-presigner": "^3.800.0",
+    "@t3-oss/env-core": "^0.13.4",
+    "@hono/node-server": "^1.14.0",
+    "hono": "^4.7.5",
+    "zod": "^3.24.3"
+  }
+}
